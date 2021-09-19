@@ -32,6 +32,10 @@ public class CovidTester
 
     private void testAge(int age)
     {
+        if(testAge >= 85)
+            System.out.println("High Risk Age");
+        else
+            System.out.println("Normal Age");
 
     }
 
