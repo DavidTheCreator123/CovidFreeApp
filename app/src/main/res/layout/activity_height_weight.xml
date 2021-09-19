@@ -56,7 +56,7 @@
         android:layout_height="50dp"
         android:layout_below="@+id/weightEditText"
         android:layout_marginTop="30dp"
-        android:layout_alignRight = ""
+        android:layout_alignRight = "@+id/numberPicker_Feet"
         android:background="@color/white" />
 
     <!-- Enter -->
