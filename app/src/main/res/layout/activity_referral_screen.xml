@@ -4,22 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".heart_rate"
+    tools:context=".referral_screen"
     android:background = "#0b081A">
 
+
     <TextView
-        android:id="@+id/enter_your_"
+        android:id="@+id/based_on_th"
         android:layout_width="380dp"
-        android:layout_height="123dp"
+        android:layout_height="373dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
-        android:text="Enter your heart rate:"
-        android:textAppearance="@style/enter_your_"
+        android:text="Please visit a rapid testing center near you based on the recommendations for your location."
+        android:textAppearance="@style/based_on_th"
         android:textColor="@color/white"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"/>
-
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="179dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

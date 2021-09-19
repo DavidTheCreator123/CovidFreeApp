@@ -17,7 +17,8 @@
         android:text="Enter your oxygen level:"
         android:textAppearance="@style/enter_your_"
         android:textColor="@color/white"
-        android:textSize="36dp"
+        android:textSize="36sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"
+        tools:layout_editor_absoluteY="173dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

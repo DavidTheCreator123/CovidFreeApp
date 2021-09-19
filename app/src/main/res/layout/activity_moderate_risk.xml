@@ -20,7 +20,7 @@
         android:textColor="@color/white"
         android:textSize="24dp"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="76dp"
+        tools:layout_editor_absoluteY="76dp" />
 
     <TextView
         android:id="@+id/based_on_th"
@@ -34,7 +34,7 @@
         android:textColor="@color/white"
         android:textSize="24dp"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="76dp"
+        tools:layout_editor_absoluteY="76dp" />
 
 
     <TextView
@@ -47,7 +47,7 @@
         android:text="Moderate"
         android:textAppearance="@style/based_on_th"
         android:textColor="@color/white"
-        android:textSize="36dp"
+        android:textSize="36sp"
         tools:layout_editor_absoluteX="15dp"
         tools:layout_editor_absoluteY="179dp" />
 

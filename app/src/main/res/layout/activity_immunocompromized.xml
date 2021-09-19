@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".heart_rate"
-    android:background = "#0b081A">
+    tools:context=".immunocompromized"
+    android:background = "#0b081A"/>
 
     <TextView
         android:id="@+id/enter_your_"
@@ -20,6 +20,5 @@
         android:textSize="36sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="173dp"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

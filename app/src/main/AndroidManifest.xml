@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidFree">
         <activity
+            android:name=".referral_screen"
+            android:exported="true" />
+        <activity
+            android:name=".immunocompromized"
+            android:exported="true" />
+        <activity
             android:name=".heart_rate"
             android:exported="true" />
         <activity
