@@ -41,7 +41,10 @@ public class CovidTester
 
     private void testTemperature(int temp)
     {
-
+        if(testTemperature >= 98.6)
+            System.out.println("Fever");
+        else
+            System.out.println("Normal");
     }
 
 }
