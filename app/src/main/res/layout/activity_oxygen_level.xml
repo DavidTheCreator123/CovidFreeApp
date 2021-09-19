@@ -15,7 +15,7 @@
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
         android:text="Enter your oxygen level:"
-        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/raleway"
         android:textColor="@color/white"
         android:textSize="36sp"
         tools:layout_editor_absoluteX="16dp"

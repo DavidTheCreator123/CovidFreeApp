@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".immunocompromized"
-    android:background = "#0b081A"/>
+    android:background = "#0b081A">
 
     <TextView
-        android:id="@+id/enter_your_"
+        android:id="@+id/name"
         android:layout_width="380dp"
         android:layout_height="123dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
         android:text="Enter your heart rate:"
-        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/raleway"
         android:textColor="@color/white"
         android:textSize="36sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="173dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

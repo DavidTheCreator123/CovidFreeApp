@@ -16,7 +16,7 @@
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
         android:text="Please visit a rapid testing center near you based on the recommendations for your location."
-        android:textAppearance="@style/based_on_th"
+        android:fontFamily="@font/raleway"
         android:textColor="@color/white"
         android:textSize="24dp"
         tools:layout_editor_absoluteX="15dp"
