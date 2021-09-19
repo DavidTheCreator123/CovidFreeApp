@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidFree">
         <activity
+            android:name=".location_screen"
+            android:exported="true" />
+        <activity
             android:name=".referral_screen"
             android:exported="true" />
         <activity
