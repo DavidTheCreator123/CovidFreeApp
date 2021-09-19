@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/based_on_th"
+        android:id="@+id/referral"
         android:layout_width="380dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"
