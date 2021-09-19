@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background = "#0b081A">
+
+
+    <!-- Select your gender: -->
+    <TextView
+        android:id="@+id/select_your"
+        android:layout_width="380dp"
+        android:layout_height="159dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal|top"
+        android:text="Select your gender:"
+        android:textAppearance="@style/select_your"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+
+    <TextView
+        android:id="@+id/male"
+        android:layout_width="380dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal|top"
+        android:text="Male"
+        android:textAppearance="@style/male"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/female"
+        android:layout_width="380dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal|top"
+        android:text="Female"
+        android:textAppearance="@style/male"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

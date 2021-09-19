@@ -10,18 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidFree">
         <activity
-            android:name=".activity_height_weight"
-            android:exported="true" />
-        <activity
-            android:name=".activity_bloodpressure"
-            android:exported="true" />
-        <activity
-            android:name=".activity_percentageofrisk"
-            android:exported="true" />
-        <activity
-            android:name=".activity_page3"
-            android:exported="true" />
-        <activity
             android:name=".Page2"
             android:exported="true" />
         <activity

@@ -3,12 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_bloodpressure.xml" value="0.18840579710144928" />
-        <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_height_weight.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_main.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_page2.xml" value="0.1947463768115942" />
-        <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_page3.xml" value="0.18840579710144928" />
-        <entry key="..\:/Users/david/AndroidStudioProjects/CovidFree/app/src/main/res/layout/activity_percentageofrisk.xml" value="0.18840579710144928" />
       </map>
     </option>
   </component>
