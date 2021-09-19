@@ -8,7 +8,7 @@
     android:background = "#0b081A">
 
     <TextView
-        android:id="@+id/based_on_th"
+        android:id="@+id/moderate_risk"
         android:layout_width="380dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"
@@ -23,7 +23,7 @@ COVID-19."
         tools:layout_editor_absoluteY="76dp" />
 
     <TextView
-        android:id="@+id/based_on_th"
+        android:id="@+id/modrisklev"
         android:layout_width="380dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"
@@ -38,7 +38,7 @@ COVID-19."
 
 
     <TextView
-        android:id="@+id/based_on_th"
+        android:id="@+id/mod"
         android:layout_width="380dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"

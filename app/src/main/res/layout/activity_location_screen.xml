@@ -8,7 +8,7 @@
     android:background = "#0b081A">
 
     <TextView
-        android:id="@+id/based_on_th"
+        android:id="@+id/location"
         android:layout_width="380dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"

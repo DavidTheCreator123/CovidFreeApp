@@ -8,17 +8,48 @@
     android:background = "#0b081A">
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/immunocompromised"
         android:layout_width="380dp"
         android:layout_height="123dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
-        android:text="Enter your heart rate:"
+        android:text="Are you immunocompromised?"
         android:fontFamily="@font/raleway"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"/>
+        tools:layout_editor_absoluteY="173dp"></TextView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/yes_immuno"
+        android:layout_width="380dp"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Yes"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="296dp"></TextView>
+
+    <TextView
+        android:id="@+id/yes_immunocompromised"
+        android:layout_width="380dp"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="No"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="440dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
