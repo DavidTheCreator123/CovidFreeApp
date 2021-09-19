@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidFree">
         <activity
+            android:name=".heart_rate"
+            android:exported="true" />
+        <activity
             android:name=".oxygen_level"
             android:exported="true" />
         <activity

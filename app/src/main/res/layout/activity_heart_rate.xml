@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".oxygen_level"
+    tools:context=".heart_rate"
     android:background = "#0b081A">
 
     <TextView
@@ -14,10 +14,12 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
-        android:text="Enter your oxygen level:"
+        android:text="Enter your heart rate:"
         android:textAppearance="@style/enter_your_"
         android:textColor="@color/white"
         android:textSize="36dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="173dp"
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
