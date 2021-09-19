@@ -4,50 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".immunocompromized"
+    tools:context=".MainActivity2"
     android:background = "#0b081A">
 
+
+    <!-- Select your gender: -->
     <TextView
-        android:id="@+id/immunocompromised"
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
         android:gravity="center_horizontal|top"
-        android:text="Are you immunocompromised?"
+        android:layout_marginTop="200dp"
+        android:text="Select your gender:"
         android:fontFamily="@font/raleway"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"/>
+        android:textSize="36dp" />
 
 
     <Button
-        android:id="@+id/yes_immuno"
+        android:id="@+id/maleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gender"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/raleway"
+        android:text="Male"
         android:gravity="center"
-        android:text="Yes"
-        android:backgroundTint="#00BCD4"
-        android:layout_below="@+id/immunocompromised"
-        android:layout_margin="40dp"
         android:textColor="@color/white"
+        android:backgroundTint="#00BCD4"
         android:textSize="25dp" />
 
     <Button
-        android:id="@+id/no_immuno"
+        android:id="@+id/femaleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/maleButton"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/raleway"
+        android:text="Female"
         android:gravity="center"
-        android:text="No"
-        android:backgroundTint="#00BCD4"
-        android:layout_below="@+id/yes_immuno"
-        android:layout_margin="10dp"
         android:textColor="@color/white"
+        android:backgroundTint="#00BCD4"
         android:textSize="25dp" />
 
 </RelativeLayout>

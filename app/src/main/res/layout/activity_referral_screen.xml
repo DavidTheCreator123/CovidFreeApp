@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".referral_screen"
-    android:background = "#0b081A">
+    tools:context=".MainActivity"
+    android:background ="#0B081A"
+    android:orientation="vertical">
 
+<TextView
+    android:id="@+id/referral"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="200dp"
+    android:gravity="center_horizontal|top"
+    android:text="Please visit a rapid testing center near you based on the recommendations for your location."
+    android:fontFamily="@font/raleway"
+    android:textColor="@color/white"
+    android:textSize="25dp" />
 
-    <TextView
-        android:id="@+id/referral"
-        android:layout_width="380dp"
-        android:layout_height="373dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:gravity="center_horizontal|top"
-        android:text="Please visit a rapid testing center near you based on the recommendations for your location."
-        android:fontFamily="@font/raleway"
-        android:textColor="@color/white"
-        android:textSize="24dp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="179dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

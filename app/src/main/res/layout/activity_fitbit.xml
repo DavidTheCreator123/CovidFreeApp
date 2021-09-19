@@ -14,13 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:text="Are you currently using a Fitbit?"
-        android:fontFamily="@font/raleway2"
-        android:textColor="@color/white"
-        android:textSize= "40dp"
         android:layout_marginTop="200dp"
+        android:fontFamily="@font/raleway2"
         android:gravity="center"
-        />
+        android:text="Are you currently using a Fitbit?"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
 
     <!-- Yes -->
     <Button
