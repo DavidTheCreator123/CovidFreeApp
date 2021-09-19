@@ -4,22 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".referral_screen"
-    android:background = "#0b081A">
+    android:background="#0b081A"
+    tools:context=".referral_screen">
 
 
     <TextView
         android:id="@+id/referral"
-        android:layout_width="380dp"
+        android:layout_width="0dp"
         android:layout_height="373dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/raleway"
         android:gravity="center_horizontal|top"
         android:text="Please visit a rapid testing center near you based on the recommendations for your location."
-        android:fontFamily="@font/raleway"
         android:textColor="@color/white"
         android:textSize="24dp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="179dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

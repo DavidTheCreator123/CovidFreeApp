@@ -5,66 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0b081A"
-    tools:context=".high_risk">
+    tools:context=".immunocompromized">
 
     <TextView
-        android:id="@+id/high_risk"
+        android:id="@+id/immunocompromised"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="173dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="282dp"
         android:fontFamily="@font/raleway"
         android:gravity="center_horizontal|top"
-        android:text="Based on the information provided you meet 4 of the 5 risk factors for
-COVID-19."
+        android:text="Are you immunocompromised?"
         android:textColor="@color/white"
-        android:textSize="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/yes_immuno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="103dp"
-        android:fontFamily="@font/raleway"
-        android:gravity="center"
-        android:text="Your overall risk level is:"
-        android:textColor="@color/white"
-        android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/high_risk"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/yes_immuno"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="179dp"
+        android:layout_marginBottom="21dp"
         android:fontFamily="@font/raleway"
         android:gravity="center"
-        android:text="High"
+        android:text="Yes"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/yes_immunocompromised"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/immunocompromised"></TextView>
+
+    <TextView
+        android:id="@+id/yes_immunocompromised"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="168dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+
+        android:text="No"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yes_immuno" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
