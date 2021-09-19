@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.covidfree">
 
     <application
@@ -9,6 +10,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidFree">
+        <activity
+            android:name=".oxygen_level"
+            android:exported="true" />
+        <activity
+            android:name=".low_risk"
+            android:exported="true" />
+        <activity
+            android:name=".moderate_risk"
+            android:exported="true" />
+        <activity
+            android:name=".high_risk"
+            android:exported="true" />
+        <activity
+            android:name=".DateOfBirthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
         <activity
             android:name=".Page2"
             android:exported="true" />
