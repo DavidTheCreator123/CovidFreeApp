@@ -4,52 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".immunocompromized"
+    tools:context=".high_risk"
     android:background = "#0b081A">
 
     <TextView
-        android:id="@+id/immunocompromised"
+        android:id="@+id/high_risk"
         android:layout_width="380dp"
-        android:layout_height="123dp"
+        android:layout_height="373dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal|top"
-        android:text="Are you immunocompromised?"
+        android:text="Based on the information provided you meet 4 of the 5 risk factors for
+        COVID-19."
         android:fontFamily="@font/raleway"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"></TextView>
-
-
-    <TextView
-        android:id="@+id/yes_immuno"
-        android:layout_width="380dp"
-        android:layout_height="123dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:fontFamily="@font/raleway"
-        android:gravity="center"
-        android:text="Yes"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="296dp"></TextView>
-
-    <TextView
-        android:id="@+id/yes_immunocompromised"
-        android:layout_width="380dp"
-        android:layout_height="123dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:fontFamily="@font/raleway"
-        android:gravity="center"
-        android:text="No"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="24dp"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="440dp"
+        tools:layout_editor_absoluteY="76dp" />
 
-        />
+    <TextView
+        android:id="hi"
+        android:layout_width="380dp"
+        android:layout_height="373dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Your overall risk level is:"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+
+    <TextView
+        android:id="@+id/high"
+        android:layout_width="380dp"
+        android:layout_height="373dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="High"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="179dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
