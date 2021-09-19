@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Page2 extends AppCompatActivity {
+public class activity_percentageofrisk extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fitbit);
+        setContentView(R.layout.activity_percentageofrisk);
     }
 }

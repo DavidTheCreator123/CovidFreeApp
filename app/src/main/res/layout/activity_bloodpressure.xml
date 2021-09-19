@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background ="#0B081A"
+    android:orientation="vertical">
+
+    <!-- BloodPress? -->
+    <TextView
+        android:id="@+id/bloodPressureText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Enter your blood pressure"
+        android:fontFamily="@font/raleway2"
+        android:textColor="@color/white"
+        android:textSize= "25dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/systolicEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Systolic Blood Pressure"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint ="@color/white"
+        android:layout_below="@+id/bloodPressureText"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/raleway2"
+        />
+
+    <EditText
+        android:id="@+id/diastolicEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="diastolic Blood Pressure"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint ="@color/white"
+        android:layout_below="@+id/systolicEditText"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/raleway2"
+        />
+
+    <!-- Enter -->
+    <Button
+        android:id="@+id/yesButton_fitBit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textColor="@color/white"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop = "25dp"
+        android:layout_below="@+id/diastolicEditText"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/raleway2"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

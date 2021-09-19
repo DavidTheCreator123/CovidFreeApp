@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background ="#0B081A"
+    android:orientation="vertical">
+
+    <!-- Enter height -->
+    <TextView
+        android:id="@+id/heightText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Enter your height and weight"
+        android:fontFamily="@font/raleway2"
+        android:textColor="@color/white"
+        android:textSize= "25dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Weight (lbs)"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint ="@color/white"
+        android:layout_below="@+id/heightText"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/raleway2"
+        />
+
+
+    <NumberPicker
+        android:id="@+id/numberPicker_Feet"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/weightEditText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@+id/numberPicker_Inches"
+        android:background="@color/white"
+        android:textSize="50dp" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker_Inches"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/weightEditText"
+        android:layout_marginTop="30dp"
+        android:layout_alignRight = ""
+        android:background="@color/white" />
+
+    <!-- Enter -->
+    <Button
+        android:id="@+id/yesButton_fitBit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPicker_Feet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="@font/raleway2"
+        android:gravity="center"
+        android:text="Input"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>
